@@ -116,7 +116,7 @@ a img{border-style:none}
 #header .menu li ul{position:absolute;left:-999em;margin-top:-7px;width:150px;height:auto !important;background-color:#fff;border:1px #ddd solid;z-index:101;opacity:0}
 #header .menu li ul li ul{margin-left:143px;margin-top:-39px}
 #header .menu li:hover>ul{left:auto;opacity:1;transition:opacity .5s;-webkit-transition:opacity .5s;-moz-transition:opacity .5s}
-#stickyMenu{z-index:999;background-color:#fff;display:block;width:960px;border-bottom:8px solid #458B00;transition:all .5s ease 0}
+#stickyMenu{z-index:999;background-color:#fff;display:block;width:960px;border-bottom:8px solid #000;transition:all .5s ease 0}
 .stuckMenu{position:fixed;top:0;box-shadow:0 5px 5px -5px #444}
 #stickyAlias{display:none;height:42px}
 ul#menu-header-menu{margin:0;width:960px;text-align:justify;-ms-text-justify:distribute-all-lines;text-justify:distribute}
