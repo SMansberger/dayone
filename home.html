@@ -28,10 +28,11 @@ document.createElement('hgroup');
 
 <link rel='stylesheet' id='contact-form-7-css'  href='css/styles.css' type='text/css' media='all' />
 <link rel='stylesheet' id='esl-slideshow-css'  href='css/slideshow.min.css' type='text/css' media='all' />
+<link rel="stylesheet" href="css/jquery.simplyscroll.css" media="all" type="text/css">
 <script type='text/javascript' src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script type='text/javascript' src='js/jquery/jquery.js'></script>
 <script type='text/javascript' src='js/jquery/jquery-migrate.min.js'></script>
-<script type='text/javascript' src='js/jquery/jquery.simplyscroll.js'></script>
+<script type='text/javascript' src="js/jquery/jquery.simplyscroll.js"></script>
 <script type='text/javascript' src='js/slideshow.min.js'></script>
 <link rel='prev' title='About' href='http://dayonelifestyle.com/' />
 <link rel='next' title='Blog' href='http://blog.dayonelifestyle.com/' />
@@ -161,9 +162,38 @@ document.createElement('hgroup');
 
 <a href="http://dayonelifestyle.com/" title="scrollingimage" id="his3container">
 	<div id="display_area" style="position:absolute;">
-		<ul id="scroller">
-			<li><img style="margin: 0px 0 0px !important;" title="scroller" src="images/scroller.jpg" alt="Scroller" height="153" width="960" /></li>
-		</ul>
+    	<!--	
+            <ul id="scroller">
+                <li>
+                <img style="margin: 0px 0 0px !important;" title="scroller" src="images/scroll1.jpg" alt="Scroller" height="150" width="200"/>
+                </li>
+                <li><img style="margin: 0px 0 0px !important;" title="scroller" src="images/scroll2.jpg" alt="Scroller" height="150" width="200"/></li>
+            </ul>
+           -->
+        <ul id="scroller">
+            <li><img src="images/scroll1.jpg" width="290" height="153"></li>
+            <li><img src="images/scroll2.jpg" width="290" height="153"></li>
+            <li><img src="images/scroll3.jpg" width="290" height="153"></li>
+            <li><img src="images/scroll4.jpg" width="290" height="200"></li>
+            <li><img src="images/scroll5.jpg" width="290" height="200"></li>
+            <li><img src="images/scroll6.jpg" width="290" height="200"></li>
+            <li><img src="images/scroll7.jpg" width="290" height="200"></li>
+            <li><img src="images/scroll8.jpg" width="290" height="200"></li>
+            <li><img src="images/scroll9.jpg" width="290" height="200"></li>
+            <li><img src="images/scroll10.jpg" width="290" height="200"></li>
+            <li><img src="images/scroll11.jpg" width="290" height="200"></li>
+            <li><img src="images/scroll12.jpg" width="290" height="200"></li>
+            <li><img src="images/scroll13.jpg" width="290" height="200"></li>
+            <li><img src="images/scroll14.jpg" width="290" height="200"></li>
+            <li><img src="images/scroll15.jpg" width="290" height="200"></li>
+            <li><img src="images/scroll16.jpg" width="290" height="200"></li>
+            <li><img src="images/scroll17.jpg" width="290" height="200"></li>
+            <li><img src="images/scroll18.jpg" width="290" height="200"></li>
+            <li><img src="images/scroll19.jpg" width="290" height="200"></li>
+            <li><img src="images/scroll20.jpg" width="290" height="200"></li>
+            <li><img src="images/scroll21.jpg" width="290" height="200"></li>
+            ...
+        </ul>            
 	</div>
 	<p class="wide-home_text" id="bottom-home-text">Day One</p>
 </a>
@@ -230,6 +260,7 @@ document.createElement('hgroup');
 jQuery(document).ready(function ($) {
 
     //Add the 'zoom' class to image links
+	
     $('a[href*=".png"], a[href*=".gif"], a[href*=".jpeg"], a[href*=".jpg"]').each(function () {
         if (this.href.indexOf('?') < 0) {
             $(this).addClass('zoom');
