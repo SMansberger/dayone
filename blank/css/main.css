@@ -1,0 +1,20 @@
+body{font-family:'roboto',arial,serif;padding:0;margin:0;background-color:#000000}
+
+.header-cont {
+width:100%;
+position:fixed;
+top:100px;
+}
+.header {
+height:50px;
+background:#F0F0F0;
+border:1px solid #CCC;
+width:960px;
+margin:0px auto 0px auto;
+text-align:center;
+}
+.header img{margin: auto auto auto auto}
+
+
+header,nav,section,article,aside,footer,hgroup{display:block}
+h1,h2,h3,h4{font-family:'Oswald',arial,serif;font-weight:normal;text-transform:uppercase}
