@@ -131,7 +131,7 @@ footer#footer .widget{text-align:center;margin-top:10px}
 #column-3{text-align:right}
 .img-third-width{width:300px;margin:0 18px 18px 0;height:auto}.img-third-width.last{margin-right:0}
 #home-buttons{position:relative;clear:both;height:861.5px; margin-top:1em}
-#home-buttons p{font-family:"Oswald",arial,serif;color:#fff;font-size:12px!important;text-transform:uppercase;line-height:20px;margin:0;position:absolute;text-align:center;top:40%;width:100%;z-index:99;background-color:rgba(100,100,0,0.5);padding:7px 0;overflow:hidden;opacity:0;-webkit-transition:opacity .7s ease;-moz-transition:opacity .7s ease;-ms-transition:opacity .7s ease;-o-transition:opacity .7s ease;transition:opacity .7s ease}
+#home-buttons p{font-family:"Oswald",arial,serif;color:#fff;font-size:12px!important;text-transform:uppercase;line-height:20px;margin:0;position:absolute;text-align:center;top:40%;width:100%;z-index:998;background-color:rgba(100,100,0,0.5);padding:7px 0;overflow:hidden;opacity:0;-webkit-transition:opacity .7s ease;-moz-transition:opacity .7s ease;-ms-transition:opacity .7s ease;-o-transition:opacity .7s ease;transition:opacity .7s ease}
 #home-buttons a:hover>p{-webkit-transition:opacity .7s ease;-moz-transition:opacity .7s ease;-ms-transition:opacity .7s ease;-o-transition:opacity .7s ease;transition:opacity .7s ease;opacity:1}
 #home-buttons div:hover>p{-webkit-transition:opacity .7s ease;-moz-transition:opacity .7s ease;-ms-transition:opacity .7s ease;-o-transition:opacity .7s ease;transition:opacity .7s ease;opacity:1}
 #his3container{position:absolute;width:960px !important;height:200px;top:700px}
