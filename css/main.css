@@ -96,7 +96,7 @@ a img{border-style:none}
 #wrapper a{color:#535353}
 #wrapper a:hover{color:#7f7f7f}
 #page_content{float:right;width:700px;overflow:hidden}
-.full-width{width:100% !important}
+.full-width{width:100%}
 .full-width img{max-width:100%;height:auto}
 #sidebar{float:left;width:230px;overflow:hidden}
 #header{padding:4px 0 0 0;text-align:center;position:relative; background-color:#fff; max-width:100%}
@@ -186,9 +186,10 @@ input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-
 .top_homelink{position:absolute;height:308px;width:308px;margin-bottom:0;top:0}
 #homelink2{left:326px}
 #homelink3{left:652px}
-.middlerowimages{position:absolute;top:326px;width:154px;height:347px}
-.middlerowimages img{width:100%;height:100%}
+.middlerowimages{position:absolute}
+.middlerowimages img{top:326px;width:150px;height:338px}
 .middlerowimages p{font-size:28.8px !important}
+#middleyoutube{top:326px;left:172px}
 #middlecenterimage{left:172px;width:616px}
 #middlerowimage2{left:806px}
 .simply-scroll,.simply-scroll .simply-scroll-clip{height:153px;width:960px;padding:0}
