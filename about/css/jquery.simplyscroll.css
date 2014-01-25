@@ -137,9 +137,10 @@ Note all DIVs are generated and should not be hard-coded
 */
 
 .simply-scroll { /* Customisable base class for style override DIV */
-	width: 100%;
-	height: 153px !important;
+	width: 960px;
+	height: 200px !important;
 	margin-bottom: 1em;
+	clear:both;
 }
 
 	.simply-scroll .simply-scroll-clip {
@@ -186,14 +187,14 @@ Note all DIVs are generated and should not be hard-coded
 
 	.vert .simply-scroll-clip {
 		width: 290px;
-		height: 400px;
+		height: 500px;
 	}
 	
 		.vert .simply-scroll-list {}
 		
 		.vert .simply-scroll-list li {
 			width: 290px;
-			height: 200px;
+			height: 500px;
 		}
 		.vert .simply-scroll-list li img {}
 	
